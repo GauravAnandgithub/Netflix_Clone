@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.net {
+    width: 501px;
+}
+
+.nett {
+    width: 751px;
+}
+
+.net :hover {
+    transform: scale(1.08);
+}
+
+.top {
+    margin-top: 21px;
+    margin-bottom: 17px;
+    color: white;
+    text-align: center;
+}
+
+.as{
+    flex-direction: column;
+}
+.a{
+    display: flex;
+    gap: 41px;
+    margin-top: 17px;
+    margin-left: 61px;
+}
+
+.net:hover {                         
+    transform: scale(1.08);
+}
+
+.nett:hover {                         
+    transform: scale(1.08);
+}

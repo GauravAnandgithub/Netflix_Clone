@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 17px;
+    background-color: black;
+    color: red;
+    background-image: url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1551px;
+}
+
+.header {
+    margin-left: 41px;
+    display: flex;
+    gap: 251px;
+    position: fixed;
+
+}
+
+.logo{
+    width: 101px;
+}
+
+.bell{
+    width: 31px;
+    border-radius: 51px;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 221px; 
+  }
+
+.prof{
+    width: 35px;
+    border-radius: 51px;
+}
+
+.header2 {
+    display: flex;
+    gap: 151px;
+    color: white;
+    text-decoration:none;
+}
+
+.header3 {
+    display: flex;
+    gap: 41px;
+}
+
+.money {
+    /* margin-top: 51px; */
+    /* margin-bottom: 101px; */
+    width: 1551px;
+}
+
+.btn1 {
+    margin-top: 351px;
+    margin-left: 71px;
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+}
+
+.rate {
+    /* background-color: red; */
+    color: yellow;
+    /* margin-top: 251px; */
+    margin-left: 101px;
+    display: flex;
+    gap: 41px;
+}
+
+.flex {
+    display: flex;
+}
+
+.year {
+    display: flex;
+    gap: 21px;
+    color: white;
+    margin-left: 71px;
+    list-style-type: none;
+}
+
+.mname {
+    color: white;
+    margin-left: 71px;
+    border: 5px;
+}
+
+.mabout {
+    color: white;
+    margin-left: 71px;
+}
+
+.play {
+    background-color: yellow;
+    color: black;
+    margin-left: 71px;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: black;
+    color: white;
+    margin-left: 71px;
+    border-radius: 5px;
+}
+
+.topic {
+    color: white;
+}
+
+.ne {
+    width: 81%;
+    object-fit: contain;
+    /* max-height: 151px; */
+    margin-right: 10px;
+    margin-left: 61px;
+    transition: transform 450ms;
+}
+
+.as{
+    flex-direction: column;
+}
+.a{
+    display: flex;
+    gap: 41px;
+    margin-top: 17px;
+    margin-left: 61px;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-eye{
+    color: grey;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.yel{
+    color: yellow;
+}
+
+.new {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 51px;
+}
+
+.ne:hover {                         
+    transform: scale(1.08);
+}
+
+.new::-webkit-scrollbar {
+    display: none;
+}
+
+.to {
+    max-height: 230px;
+    /* gap: 21px; */
+}
+
+.row{
+    color: white;
+    margin-left: 20px;
+}
+
+.hea{
+    background-color: red;
+}
